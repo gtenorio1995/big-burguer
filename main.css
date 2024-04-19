@@ -1,0 +1,17 @@
+:root{
+    --whiteCool-color: #FBF7F4;
+    --orange-color: #BF4E30;
+}
+
+.navbar{
+    background-color: var(--whiteCool-color);
+}
+
+.nav .nav-link.active{
+    background-color: var(--orange-color);
+    color: var(--whiteCool-color);
+}
+
+.nav .nav-link, .navbar-brand{
+    color: var(--orange-color);
+}

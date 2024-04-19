@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
+    <header class="navbar navbar-expand-lg g-0 sticky-top p-4" id="cabecalho">
         <div class="container">
-            <a href="#" class="navbar-brand">
+            <a href="#" class="navbar-brand m-0">
                 <h1>BIG <span>BURGUER</span></h1>
             </a>
-            <button class="nav-toggler" type="button">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar navbar-expand-md">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">Inicio</a>
+            <div class="nnavbar-collapse collapse just-content-end" id="menu-navigation">
+                <ul class="navbar-nav nav-pills d block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Inicio
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Lanches</a>

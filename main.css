@@ -12,6 +12,11 @@
     color: var(--whiteCool-color);
 }
 
-.nav .nav-link, .navbar-brand{
+.nav .nav-link{
     color: var(--orange-color);
+}
+
+.navbar-brand span{
+    -webkit-text-stroke: 2px var(--orange-color);
+    -webkit-text-fill-color: transparent;
 }

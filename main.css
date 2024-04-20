@@ -1,5 +1,5 @@
 :root{
-    --whiteCool-color: #ececeb;
+    --whiteCool-color: #dad7cd;
     --orange-color: #BF4E30;
 }
 
@@ -23,4 +23,12 @@
 
 .navbar-toggler{
     border-color: var(--orange-color);
+}
+
+.span-laranja{
+    color: var(--orange-color);
+}
+
+#about{
+    background-color: var(--whiteCool-color);
 }

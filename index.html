@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<!-- Header start -->
+    <!-- Header start -->
 
     <header class="navbar navbar-expand-lg g-0 sticky-top p-4" id="cabecalho">
         <div class="container">
@@ -25,9 +25,14 @@
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navigation">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item">
-                        <a href="#" class="nav-link fw-bold active">
+                        <a href="#hero" class="nav-link fw-bold active">
                             <i class="bi bi-house-door me-1"></i>
-                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link fw-bold">
+                            <i class="bi bi-building me-1"></i>
+                            Sobre a BIG Burguer
                         </a>
                     </li>
                     <li class="nav-item">
@@ -38,7 +43,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="#contato" class="nav-link fw-bold">
-                            <i class="bi bi-envelope-at me-1"></i>
+                            <i class="bi bi-chat-dots me-1"></i>
                             Contato
                         </a>
                     </li>
@@ -53,9 +58,9 @@
         </div>
     </header>
 
-<!-- Header end -->
+    <!-- Header end -->
 
-<!-- Carousel start -->
+    <!-- Carousel start -->
 
     <section id="hero">
         <div class="carousel slide" data-bs-ride="carousel" id="carousel">
@@ -88,14 +93,49 @@
         </div>
     </section>
 
-<!-- Carousel end -->
+    <!-- Carousel end -->
 
-    <main>
-        <div class="container">
-            <section class="cardapio">
+    <!-- Main start -->
 
-            </section>
-        </div>
+    <main data-bs-spy="scroll" data-bs-targer="#cabecalho">
+
+        <!-- Section About start -->
+
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images/logo.png" alt="logo" class="d-block w-100">
+                    </div>
+                    <div class="col-md-7">
+                        <h2>Sobre a <span class="span-laranja">BIG Burguer</span></h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, amet harum blanditiis
+                            ullam neque
+                            itaque recusandae quidem quod asperiores dolorum possimus incidunt placeat similique
+                            veritatis
+                            alias explicabo eveniet voluptates impedit?</p>
+                        <h3>Sobre o <span class="span-laranja">espaço</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quidem deserunt eveniet,
+                            iure
+                            ducimus voluptatum nostrum officia aperiam dolor consequuntur nesciunt natus sequi unde
+                            odio eum
+                            voluptatibus porro earum. Neque?</p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section About end -->
+
+        <!-- Section Cardapio start -->
+
+
+
+        <!-- Section Cardapio end -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

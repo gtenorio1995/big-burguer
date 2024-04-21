@@ -3,6 +3,10 @@
     --orange-color: #BF4E30;
 }
 
+body{
+    overflow-y: auto;
+}
+
 .navbar{
     background-color: var(--whiteCool-color);
 }
@@ -13,6 +17,10 @@
 }
 
 .nav .nav-link, .navbar-brand{
+    color: var(--orange-color);
+}
+
+.navbar-brand:hover, .navbar-brand:active, h1{
     color: var(--orange-color);
 }
 
@@ -68,4 +76,75 @@
 
 .social-links a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    #about img{
+        max-width: 150px;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+
+    .section-padding{
+        padding: 1cqh 0;
+    }
+    .section-title{
+        padding: 2rem 0 1rem;
+        text-align: center;
+    }
+    
+    h3{
+        margin-top: 1.5rem;
+    }
+
+    #cardapio aside{
+        margin-bottom: 2rem;
+    }
+
+    #contact h3{
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    #contact form button{
+        width: 100%;
+    }
+
+    #contact .social-links{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+
+    #contact p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #about .section-title{
+        padding-bottom: 1rem;
+    }
+
+    #about img{
+        margin: auto;
+        width: 100%;
+        margin: 6rem 0;
+    }
+
+    #about h3{
+        margin-top: 1.5rem;
+    }
+
+    #burguer-esp h5{
+        font-size: 1.2rem;
+    }
+
+    #contact .social-links{
+        margin-bottom: 2rem;
+    }
+
+    #contact form button{
+        width: 100%;
+    }
 }

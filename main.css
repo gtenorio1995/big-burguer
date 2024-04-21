@@ -29,6 +29,43 @@
     color: var(--orange-color);
 }
 
-#about{
+#about, #contact{
     background-color: var(--whiteCool-color);
+}
+
+.section-title{
+    padding-bottom: 3rem;
+}
+
+.section-padding{
+    padding: 5rem 0;
+}
+
+.bg-laranja{
+    background-color: var(--orange-color);
+}
+
+.btn{
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: var(--whiteCool-color);
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+}
+
+#mensagem{
+    height: 100px;
+    resize: none;
+    padding: 0.5rem;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
 }
